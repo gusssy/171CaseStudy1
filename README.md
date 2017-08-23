@@ -1,5 +1,6 @@
 # 171CaseStudy1
 
+
 %Case Study 1, Exercise 1
 %Hauling a sled up an incline with a cable
 %Using Newton's method and graphical method to solve for V
@@ -39,3 +40,4 @@ f = @(V) V*m*g*sin(gradient) + V*Cf*m*g*cos(gradient) - a*((B*rgb)/R - (rgb^2*V^
 
 %Derivitave of final function
 d = @(V) m*g*sin(gradient) + Cf*m*g*cos(gradient) - a*((B*rgb)/R - (2*rgb^2*V)/r^2);
+
